@@ -1,10 +1,11 @@
+import React from 'react'
 import Head from 'next/head'
+
 import styles from '../styles/Home.module.css'
 
 const BACKEND_URL = process.env.BACKEND_URL || ''
 
-
-export default function Home() {
+export default function Home () {
   return (
     <div className={styles.container}>
       <Head>
